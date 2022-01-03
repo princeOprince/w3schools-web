@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Menu Icon</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .hamburger {
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .hamburger-bar1,
+    .hamburger-bar2,
+    .hamburger-bar3 {
+      width: 35px;
+      height: 5px;
+      background-color: black;
+      transition: 0.4s;
+    }
+
+    .hamburger-bar2 {
+      margin: 6px 0;
+    }
+    .change .hamburger-bar1 {
+      transform: rotate(-45deg) translate(-10px, 6px);
+    }
+
+    .change .hamburger-bar2 {
+      opacity: 0;
+    }
+
+    .change .hamburger-bar3 {
+      transform: rotate(45deg) translate(-9px, -6px);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="hamburger" onclick="toggleHamburger(this)">
+    <div class="hamburger-bar1"></div>
+    <div class="hamburger-bar2"></div>
+    <div class="hamburger-bar3"></div>
+  </div>
+</body>
+
+<script>
+  function toggleHamburger(obj) {
+    obj.classList.toggle('change');
+  }
+</script>
+
+</html>
