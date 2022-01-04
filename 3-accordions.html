@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accordions/Collapsibles</title>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      margin: 0 8px;
+      justify-content: center;
+      height: 100vh;
+    }
+    
+    .accordion {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      border-bottom: 1px solid rgba(0, 0, 0, .1);
+      outline: none;
+      transition: 0.4s;
+    }
+
+    .active,
+    .accordion:hover {
+      background-color: #ccc;
+    }
+
+    .accordion::after {
+      content: '\02795';  /* Unicode character for "plus" sign (+) */
+      font-size: 13px;
+      color: #777;
+      float: right;
+      margin-left: 5px;
+    }
+
+    .active:after {
+      content: "\2796";  /* Unicode character for "minus" sign (-) */
+    }
+
+    .panel {
+      padding: 0 18px;
+      background-color: white;
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.2s ease-out;
+    }
+  </style>
+</head>
+
+<body>
+  <button class="accordion">Section 1</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit delectus optio eum ullam est animi minima ducimus
+      quas perspiciatis exercitationem, praesentium quisquam, iure nobis, illo esse atque corporis dolorum asperiores!
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod sint commodi consequuntur hic pariatur, tempore quam
+      in harum natus porro ex, dicta rem ullam corrupti itaque quis illum nisi eveniet!
+    </p>
+  </div>
+
+  <button class="accordion">Section 2</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam deleniti sint qui, saepe ex reprehenderit
+      consequuntur animi hic praesentium beatae! Illo tempore nesciunt quasi at amet, magni nihil est distinctio.</p>
+  </div>
+
+  <button class="accordion">Section 3</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores assumenda eum soluta dolorem adipisci voluptas
+      quam voluptate autem. Cum quos alias voluptatum expedita voluptatibus suscipit quod assumenda sunt veniam quis?
+    </p>
+  </div>
+</body>
+
+<script>
+  const acc = document.getElementsByClassName("accordion");
+  for (let i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+      this.classList.toggle("active");
+
+      const panel = this.nextElementSibling;
+      if (panel.style.maxHeight) {
+        panel.style.maxHeight = null;
+      } else {
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  }
+</script>
+
+</html>
