@@ -20,6 +20,12 @@ Accordiion - Collapsible content
 
 ![accordions][3]
 
+## [Horizontal Tabs][4-]
+
+Toggle between displaying different contents.
+
+![tabs][4]
+
 [1]: imgs/1-iconbar.png "Icon Bar"
 [1-]: https://www.w3schools.com/howto/howto_css_icon_bar.asp "How To - Icon Bar"
 
@@ -28,3 +34,6 @@ Accordiion - Collapsible content
 
 [3]: imgs/3-accordions.gif "Accordions/Collapsibles"
 [3-]: https://www.w3schools.com/howto/howto_js_accordion.asp "How To - Collapsibles/Accordions"
+
+[4]: imgs/4-tabs.gif "Horizontal Tabs"
+[4-]: https://www.w3schools.com/howto/howto_js_tabs.asp "How To - Tabs"
