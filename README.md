@@ -26,6 +26,12 @@ Toggle between displaying different contents.
 
 ![tabs][4]
 
+## [Vertical Tabs][5-]
+
+Toggle between displaying different contents.
+
+![tabs][5]
+
 [1]: imgs/1-iconbar.png "Icon Bar"
 [1-]: https://www.w3schools.com/howto/howto_css_icon_bar.asp "How To - Icon Bar"
 
@@ -35,5 +41,8 @@ Toggle between displaying different contents.
 [3]: imgs/3-accordions.gif "Accordions/Collapsibles"
 [3-]: https://www.w3schools.com/howto/howto_js_accordion.asp "How To - Collapsibles/Accordions"
 
-[4]: imgs/4-tabs.gif "Horizontal Tabs"
+[4]: imgs/4-horizontaltabs.gif "Horizontal Tabs"
 [4-]: https://www.w3schools.com/howto/howto_js_tabs.asp "How To - Tabs"
+
+[5]: imgs/5-verticaltabs.gif "Vertical Tabs"
+[5-]: https://www.w3schools.com/howto/howto_js_vertical_tabs.asp "How To - Vertical Tabs"
