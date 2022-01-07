@@ -24,13 +24,19 @@ Accordiion - Collapsible content
 
 Toggle between displaying different contents.
 
-![tabs][4]
+![horizontal-tabs][4]
 
 ## [Vertical Tabs][5-]
 
 Toggle between displaying different contents.
 
-![tabs][5]
+![vertical-tabs][5]
+
+## [Tab Headers][6-]
+
+Toggle between displaying different contents.
+
+![tab-headers][6]
 
 [1]: imgs/1-iconbar.png "Icon Bar"
 [1-]: https://www.w3schools.com/howto/howto_css_icon_bar.asp "How To - Icon Bar"
@@ -46,3 +52,6 @@ Toggle between displaying different contents.
 
 [5]: imgs/5-verticaltabs.gif "Vertical Tabs"
 [5-]: https://www.w3schools.com/howto/howto_js_vertical_tabs.asp "How To - Vertical Tabs"
+
+[6]: imgs/6-tabheaders.gif "Tab Headers"
+[6-]: https://www.w3schools.com/howto/howto_js_tab_header.asp "How To - Tab Headers"
