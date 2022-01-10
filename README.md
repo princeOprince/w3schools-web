@@ -40,10 +40,19 @@ Toggle between displaying different contents.
 
 ## [Responsive Nav Bar][7-]
 
-Toggle between displaying different contents.
+Desktop view of navigation bar.
 
 ![desktop-nav-bar][7-1]
-![mobile-nav-bar][7-2]
+
+Mobile view of navigation bar.
+
+![mobile-nav-bar1][7-2]
+
+Mobile view of navigation bar using Web Components.
+
+This integrates an animated menu icon as a custom element.
+
+![mobile-nav-bar2][7-3]
 
 [1]: imgs/1-iconbar.png "Icon Bar"
 [1-]: https://www.w3schools.com/howto/howto_css_icon_bar.asp "How To - Icon Bar"
@@ -65,4 +74,5 @@ Toggle between displaying different contents.
 
 [7-1]: imgs/7-responsivenavbar1.png "Desktop Nav Bar"
 [7-2]: imgs/7-responsivenavbar2.gif "Mobile Nav Bar"
+[7-3]: imgs/7-responsivenavbar3.gif "Mobile Nav Bar"
 [7-]: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp "How To - Responsive Top Navigation"
