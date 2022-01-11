@@ -54,6 +54,12 @@ This integrates an animated menu icon as a custom element.
 
 ![mobile-nav-bar2][7-3]
 
+## [Search/Filter Menu][8-]
+
+A search menu that filters links.
+
+![search-menu][8]
+
 [1]: imgs/1-iconbar.png "Icon Bar"
 [1-]: https://www.w3schools.com/howto/howto_css_icon_bar.asp "How To - Icon Bar"
 
@@ -76,3 +82,6 @@ This integrates an animated menu icon as a custom element.
 [7-2]: imgs/7-responsivenavbar2.gif "Mobile Nav Bar"
 [7-3]: imgs/7-responsivenavbar3.gif "Mobile Nav Bar"
 [7-]: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp "How To - Responsive Top Navigation"
+
+[8]: imgs/8-searchmenu.gif "Search Menu"
+[8-]: https://www.w3schools.com/howto/howto_js_search_menu.asp "How To - Search/Filter Menu"

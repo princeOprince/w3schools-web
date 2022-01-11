@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Menu</title>
+  <style>
+    body {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      height: 80vh;
+      margin: 50px 16px 0;
+    }
+
+    #search {
+      width: 50%;
+      font-size: 18px;
+      padding: 11px;
+      border: 1px solid #ddd;
+    }
+
+    #category {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      width: 50%;
+    }
+
+    #category li a {
+      padding: 12px 0;
+      text-decoration: none;
+      color: black;
+      display: block
+    }
+
+    #category li a:hover {
+      background-color: #eee;
+    }
+  </style>
+</head>
+
+<body>
+  <input type="text" id="search" placeholder="Search..." title="Type in a category" onkeyup="filterCategory()">
+
+  <ul id="category">
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+    <li><a href="#">PHP</a></li>
+    <li><a href="#">Python</a></li>
+    <li><a href="#">jQuery</a></li>
+    <li><a href="#">SQL</a></li>
+    <li><a href="#">Bootstrap</a></li>
+    <li><a href="#">Node.js</a></li>
+  </ul>
+</body>
+
+<script>
+  function filterCategory() {
+    const input = document.getElementById("search");
+    const filter = input.value.toUpperCase();
+    const category = document.getElementById("category");
+    const items = category.getElementsByTagName("li");
+
+    for (let i = 0; i < items.length; i++) {
+      const item = items[i].getElementsByTagName("a")[0];
+      if (item.textContent.toUpperCase().indexOf(filter) > -1) {
+        items[i].style.display = "";
+      } else {
+        items[i].style.display = "none";
+      }
+    }
+  }
+</script>
+
+</html>
