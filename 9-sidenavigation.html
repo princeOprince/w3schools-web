@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Side Navigation</title>
+  <style>
+    .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      padding-top: 60px;
+      transition: width 0.5s;
+    }
+
+    .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: color 0.3s;
+    }
+
+    .sidenav a:hover {
+      color: #f1f1f1;
+    }
+
+    .sidenav .closebtn {
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 40px;
+      margin-left: 50px;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    div > div:not(.sidenav) {
+      margin-bottom: 30px;
+    }
+
+    div button {
+      background-color: #818181;
+      color: white;
+      padding: 15px 20px;
+      border-radius: 10px;
+      font-weight: bolder;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    div button:hover {
+      background-color: #111;
+    }
+
+    #sidenav2 {
+      width: 250px;
+      display: none;
+    }
+
+    #sidenav3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+    }
+
+    #sidenav3 a {
+      text-align: center;
+      font-size: 50px;
+      padding: 30px 0;
+    }
+
+    #main {
+      transition: margin-left .5s;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="sidenav1" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <div id="sidenav2" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <div id="sidenav3" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav5()">&times;</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+
+  <div id="main">
+    <div><button onmouseenter="openNav1()" onmouseleave="closeNav1()">Sidenav overlay</button></div>
+    <div><button onmouseenter="openNav2()" onmouseleave="closeNav2()">Sidenav overlay without animation</button></div>
+    <div><button onmouseenter="openNav3()" onmouseleave="closeNav3()">Sidenav push (off-canvas)</button></div>
+    <div><button onmouseenter="openNav4()" onmouseleave="closeNav4()">Sidenav push with opacity</button></div>
+    <div><button onclick="openNav5()">Sidenav full-width</button></div>
+  </div>
+</body>
+
+<script>
+  /* Sidenav overlay */
+  function openNav1() {
+    document.getElementById("sidenav1").style.width = "250px";
+  }
+  function closeNav1() {
+    document.getElementById("sidenav1").style.width = "0";
+  }
+
+  /* Sidenav overlay without animation */
+  function openNav2() {
+    document.getElementById("sidenav2").style.display = "block";
+  }
+  function closeNav2() {
+    document.getElementById("sidenav2").style.display = "none";
+  }
+
+  /* Sidenav push (off-canvas) */
+  function openNav3() {
+    document.getElementById("sidenav1").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  function closeNav3() {
+    document.getElementById("sidenav1").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+
+  /* Sidenav push with opacity */
+  function openNav4() {
+    document.getElementById("sidenav1").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+    document.body.style.backgroundColor = "rgba(0 ,0 ,0 , 0.4)";
+  }
+  function closeNav4() {
+    document.getElementById("sidenav1").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.body.style.backgroundColor = "white";
+  }
+
+  /* Sidenav full-width */
+  function openNav5() {
+    document.getElementById("sidenav3").style.width = "100%";
+  }
+  function closeNav5() {
+    document.getElementById("sidenav3").style.width = "0";
+  }
+</script>
+
+</html>

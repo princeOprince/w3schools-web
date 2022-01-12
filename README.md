@@ -60,6 +60,12 @@ A search menu that filters links.
 
 ![search-menu][8]
 
+## [Side Navigation][9-]
+
+An animated side navigation.
+
+![side-navigation][9]
+
 [1]: imgs/1-iconbar.png "Icon Bar"
 [1-]: https://www.w3schools.com/howto/howto_css_icon_bar.asp "How To - Icon Bar"
 
@@ -85,3 +91,6 @@ A search menu that filters links.
 
 [8]: imgs/8-searchmenu.gif "Search Menu"
 [8-]: https://www.w3schools.com/howto/howto_js_search_menu.asp "How To - Search/Filter Menu"
+
+[9]: imgs/9-sidenavigation.gif "Side Navigation"
+[9-]: https://www.w3schools.com/howto/howto_js_sidenav.asp "How To - Side Navigation"
