@@ -66,6 +66,12 @@ An animated side navigation.
 
 ![side-navigation][9]
 
+## [Side Down Menu Bar][10-]
+
+Slide down a menu bar when scrolling through a document.
+
+![slide-down-bar][10]
+
 [1]: imgs/1-iconbar.png "Icon Bar"
 [1-]: https://www.w3schools.com/howto/howto_css_icon_bar.asp "How To - Icon Bar"
 
@@ -94,3 +100,6 @@ An animated side navigation.
 
 [9]: imgs/9-sidenavigation.gif "Side Navigation"
 [9-]: https://www.w3schools.com/howto/howto_js_sidenav.asp "How To - Side Navigation"
+
+[10]: imgs/10-slidedownbar.gif "Slide Down Menu Bar"
+[10-]: https://www.w3schools.com/howto/howto_js_navbar_slide.asp "How To - Slide down a bar on scroll"
