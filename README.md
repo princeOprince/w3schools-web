@@ -1,16 +1,36 @@
 # W3Schools Web Related Projects
 
-## [Icon Bar][1-]
+The aim of this task is to practice and explore web projects on W3Schools every single day, and also incorporating my creativity and ideas from other sources. The tags specify the day a project is completed.
+
+## Contents
+
+1. [Icon Bar](#icon-bar)
+2. [Animated Menu Icon](#animated-menu-icon)
+3. [Accordions/Collapsibles](#accordionscollapsibles)
+4. [Horizontal Tabs](#horizontal-tabs)
+5. [Vertical Tabs](#vertical-tabs)
+6. [Tab Headers](#tab-headers)
+7. [Responsive Menu Bar](#responsive-menu-bar)
+8. [Search/Filter Menu](#searchfilter-menu)
+9. [Side Navigation](#side-navigation)
+10. [Show Menu Bar on scroll](#show-menu-bar-on-scroll)
+11. [Hide Menu Bar on scroll down](#hide-menu-bar-on-scroll-down)
+
+## [Icon Bar][1-] 
 
 This requires the Font Awesome Icon library.
 
 ![icon-bar][1]
+
+[![go-to-contents](/imgs/up.png "Go to contents")](#contents)
 
 ## [Animated Menu Icon][2-]
 
 Toggle hamburger icon to x.
 
 ![menu-icon][2]
+
+[![go-to-contents](/imgs/up.png "Go to contents")](#contents)
 
 ## [Accordions/Collapsibles][3-]
 
@@ -20,11 +40,15 @@ Accordiion - Collapsible content
 
 ![accordions][3]
 
+[![go-to-contents](/imgs/up.png "Go to contents")](#contents)
+
 ## [Horizontal Tabs][4-]
 
 Toggle between displaying different contents.
 
 ![horizontal-tabs][4]
+
+[![go-to-contents](/imgs/up.png "Go to contents")](#contents)
 
 ## [Vertical Tabs][5-]
 
@@ -32,13 +56,17 @@ Toggle between displaying different contents.
 
 ![vertical-tabs][5]
 
+[![go-to-contents](/imgs/up.png "Go to contents")](#contents)
+
 ## [Tab Headers][6-]
 
 Toggle between displaying different contents.
 
 ![tab-headers][6]
 
-## [Responsive Nav Bar][7-]
+[![go-to-contents](/imgs/up.png "Go to contents")](#contents)
+
+## [Responsive Menu Bar][7-]
 
 Desktop view of navigation bar.
 
@@ -54,11 +82,15 @@ This integrates an animated menu icon as a custom element.
 
 ![mobile-nav-bar2][7-3]
 
+[![go-to-contents](/imgs/up.png "Go to contents")](#contents)
+
 ## [Search/Filter Menu][8-]
 
 A search menu that filters links.
 
 ![search-menu][8]
+
+[![go-to-contents](/imgs/up.png "Go to contents")](#contents)
 
 ## [Side Navigation][9-]
 
@@ -66,17 +98,23 @@ An animated side navigation.
 
 ![side-navigation][9]
 
+[![go-to-contents](/imgs/up.png "Go to contents")](#contents)
+
 ## [Show Menu Bar on scroll][10-]
 
 Slide down a menu bar when scrolling through a document.
 
 ![slide-down-bar][10]
 
+[![go-to-contents](/imgs/up.png "Go to contents")](#contents)
+
 ## [Hide Menu Bar on scroll down][11-]
 
 Show/hide menu bar when scrolling up/down a document.
 
 ![slide-down-bar][11]
+
+[![go-to-contents](/imgs/up.png "Go to contents")](#contents)
 
 [1]: imgs/1-iconbar.png "Icon Bar"
 [1-]: https://www.w3schools.com/howto/howto_css_icon_bar.asp "How To - Icon Bar"
