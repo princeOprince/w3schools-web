@@ -66,11 +66,17 @@ An animated side navigation.
 
 ![side-navigation][9]
 
-## [Side Down Menu Bar][10-]
+## [Show Menu Bar on scroll][10-]
 
 Slide down a menu bar when scrolling through a document.
 
 ![slide-down-bar][10]
+
+## [Hide Menu Bar on scroll down][11-]
+
+Show/hide menu bar when scrolling up/down a document.
+
+![slide-down-bar][11]
 
 [1]: imgs/1-iconbar.png "Icon Bar"
 [1-]: https://www.w3schools.com/howto/howto_css_icon_bar.asp "How To - Icon Bar"
@@ -103,3 +109,6 @@ Slide down a menu bar when scrolling through a document.
 
 [10]: imgs/10-slidedownbar.gif "Slide Down Menu Bar"
 [10-]: https://www.w3schools.com/howto/howto_js_navbar_slide.asp "How To - Slide down a bar on scroll"
+
+[11]: imgs/11-hidenavbarscrolldown.gif "Hide Menu Bar on scroll down"
+[11-]: https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp "How To - Hide menu bar on scroll down"
