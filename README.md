@@ -1,6 +1,6 @@
 # W3Schools Web Related Projects
 
-The aim of this task is to practice and explore web projects on W3Schools every single day, and also incorporating my creativity and ideas from other sources. The tags specify the day a project is completed.
+The objective is to practice and explore web projects on W3Schools every other day, and also incorporating my creativity and ideas from other sources. The tags mark the days projects are completed.
 
 ## Contents
 
