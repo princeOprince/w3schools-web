@@ -1,6 +1,6 @@
 # W3Schools Web Related Projects
 
-The objective is to practice and explore web projects on W3Schools every other day, and also incorporating my creativity and ideas from other sources. The tags mark the days projects are completed.
+The objective is to practice and explore web projects on W3Schools, and also incorporating my creativity and ideas from other sources. The tags mark the days projects are completed.
 
 ## Contents
 
