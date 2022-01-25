@@ -15,6 +15,7 @@ The aim of this task is to practice and explore web projects on W3Schools every 
 9. [Side Navigation](#side-navigation)
 10. [Show Menu Bar on scroll](#show-menu-bar-on-scroll)
 11. [Hide Menu Bar on scroll down](#hide-menu-bar-on-scroll-down)
+12. [Shrink Navigation Menu on scroll down](#shrink-navigation-menu-on-scroll-down)
 
 ## [Icon Bar][1-] 
 
@@ -116,6 +117,14 @@ Show/hide menu bar when scrolling up/down a document.
 
 [![go-to-contents](/imgs/up.png "Go to contents")](#contents)
 
+## [Shrink Navigation Menu on scroll down][12-]
+
+Resize menu bar when scrolling up/down a document.
+
+![shrink-navigation-bar][12]
+
+[![go-to-contents](/imgs/up.png "Go to contents")](#contents)
+
 [1]: imgs/1-iconbar.png "Icon Bar"
 [1-]: https://www.w3schools.com/howto/howto_css_icon_bar.asp "How To - Icon Bar"
 
@@ -150,3 +159,9 @@ Show/hide menu bar when scrolling up/down a document.
 
 [11]: imgs/11-hidenavbarscrolldown.gif "Hide Menu Bar on scroll down"
 [11-]: https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp "How To - Hide menu bar on scroll down"
+
+[11]: imgs/11-hidenavbarscrolldown.gif "Hide Menu Bar on scroll down"
+[11-]: https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp "How To - Hide menu bar on scroll down"
+
+[12]: imgs/12-shrinknavbar.gif "Shrink menu bar on scroll down"
+[12-]: https://www.w3schools.com/howto/howto_js_navbar_shrink_scroll.asp "How To - Shrink Navigation Menu on scroll down"
