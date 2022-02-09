@@ -18,8 +18,9 @@ The objective is to practice and explore web projects on W3Schools, and also inc
 12. [Shrink Navigation Menu on scroll down](#shrink-navigation-menu-on-scroll-down)
 13. [Affix Navigation Menu on scroll down](#affix-navigation-menu-on-scroll-down)
 14. [Dropdown Menu List on hover](#dropdown-menu-list-on-hover)
+15. [Cascading Dropdown Menu List](#cascading-dropdown-menu-list)
 
-## [Icon Bar][1-] 
+## [Icon Bar][1-]
 
 This requires the Font Awesome Icon library.
 
@@ -137,9 +138,18 @@ Make menu bar stick when scrolling up/down a document.
 
 ## [Dropdown Menu List on hover][14-]
 
-Display a  menu list when  hovering a button.
+Display a menu list when hovering a button.
 
 ![hoverable-dropdown][14]
+
+[![go-to-contents](/imgs/up.png "Go to contents")](#contents)
+
+## [Cascading Dropdown Menu List][15-]
+
+Change other menu list based on the first menu list.
+The second and third dropdown list will display different options, depending on the value selected in the parent dropdown list.
+
+![cascading-dropdown][15]
 
 [![go-to-contents](/imgs/up.png "Go to contents")](#contents)
 
@@ -186,3 +196,6 @@ Display a  menu list when  hovering a button.
 
 [14]: imgs/14-hoverdropdown.gif "Dropdown menu list on hover"
 [14-]: https://www.w3schools.com/howto/howto_css_dropdown.asp " How To - Hoverable Dropdown"
+
+[15]: imgs/15-cascadingdropdown.gif "Cascading dropdown menu list"
+[15-]: https://www.w3schools.com/howto/howto_js_cascading_dropdown.asp "How To - Cascading Dropdown List"
